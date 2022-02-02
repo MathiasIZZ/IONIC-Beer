@@ -10,14 +10,23 @@ import {Basket} from '../models/basket';
 })
 export class BasketDetailsComponent implements OnInit {
 
-  basket: Basket;
+  baskets: Basket[] = [];
 
   constructor(private basketService: BasketService) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.displayBasket();
+  }
 
   displayBasket() {
-    this.basketService.getBasket().subscribe( data => this.basket = data);
+    this.basketService.findAll().subscribe( (data) => {
+      this.baskets = data;
+      console.log(this.baskets);
+    });
+  }
+
+  deleteBeerOfMyBasket(index: number) {
+    this.baskets.splice(index);
   }
 
 

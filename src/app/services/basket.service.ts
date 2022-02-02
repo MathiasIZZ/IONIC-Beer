@@ -9,8 +9,8 @@ import {environment} from '../../environments/environment';
 export class BasketService {
   constructor(private http: HttpClient) {}
 
-  public getBasket() {
-    return this.http.get<Basket>(`${environment.apiUrl}/basket`);
+  public findAll() {
+    return this.http.get<Basket[]>(`${environment.apiUrl}/basket`);
   }
 
 

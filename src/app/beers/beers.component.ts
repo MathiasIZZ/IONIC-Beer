@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {BeerService} from "../services/beer.service";
-import {Beer} from "../models/beer";
+import {BeerService} from '../services/beer.service';
+import {Beer} from '../models/beer';
+import {ActivatedRoute} from '@angular/router';
 
 
 @Component({
@@ -11,8 +12,11 @@ import {Beer} from "../models/beer";
 export class BeersComponent implements OnInit {
 
   beers: Beer[] = [];
+  url: string;
 
-  constructor(private beerService: BeerService) {
+
+
+  constructor(private beerService: BeerService, private router: ActivatedRoute) {
   }
 
   ngOnInit() {
