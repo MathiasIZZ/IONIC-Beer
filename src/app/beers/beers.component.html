@@ -22,10 +22,11 @@
   <ion-content>
     <ion-list>
       <ng-container *ngFor="let beer of beers">
-        <ion-item>
+        <ion-item *ngIf="beer.isAvailable">
           <ion-icon name="add-circle-outline"></ion-icon>
           <img src={{beer.img}} alt="{{beer.name}}">
           <p>{{beer.name}}</p>
+          <p slot="end">prix : {{beer.price}} €</p>
         </ion-item>
       </ng-container>
     </ion-list>
