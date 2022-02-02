@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {BeerService} from "../services/beer.service";
 import {Beer} from "../models/beer";
-import {MenuController} from "@ionic/angular";
+
 
 @Component({
   selector: 'app-beers',
