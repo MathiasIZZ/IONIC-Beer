@@ -18,9 +18,9 @@
       "description": "Quintine est en effet le nom donné à une sorcière du village. Cette bière, à la robe d'un jaune or troublé, se couvre d'un chapeau de mousse crémeux à la belle abondance. Celui-ci est traversé par une effervescence conséquente. La Quintine Blonde développe dans le nez des arômes fruités et fleuris de houblon.",
       "price": 3.5,
       "type": "Blonde",
-      "quantity": 0,
+      "quantity": 10,
       "degree": 8,
-      "isAvailable": false
+      "isAvailable": true
     },
     {
       "id": 3,
@@ -69,7 +69,7 @@
     {
       "id": 8,
       "name": "8.6",
-      "img": "https://courses.monoprix.fr/images-v3/0c44253f-c4a3-4340-9d37-d41e42b9d14a/2ac4dcc3-d4ff-4a51-9524-5b5af02c437d/500x500.jpg",
+      "img": "https://fr.86beer.com/content/dam/eightsixbeer/products/eightsixbeer/23327/fr/23327.png",
       "description": "Affligem Blonde est une bière de type Abbaye. A consommer entre 6° et 10°, l’Affligem® Blonde allie une jolie rondeur au goût fruité et une délicate amertume, parfaitement équilibrée. Une bière idéale pour l’apéritif, qui accompagnera également les fruits de mer, les grillades ou des plats épicés.",
       "price": 1,
       "type": "Brune",

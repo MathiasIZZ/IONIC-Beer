@@ -12,9 +12,6 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {}
 
-  openFirst() {
-    this.menuController.enable(true, 'first');
-    this.menuController.open('first');
-  }
+
 
 }
