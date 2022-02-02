@@ -9,7 +9,7 @@
       "type": "Blonde",
       "quantity": 12,
       "degree": 8,
-      "available": true
+      "isAvailable": true
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "type": "Blonde",
       "quantity": 24,
       "degree": 8,
-      "available": true
+      "isAvailable": true
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "type": "Blonde",
       "quantity": 6,
       "degree": 8.4,
-      "available": true
+      "isAvailable": true
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "type": "Blonde",
       "quantity": 9,
       "degree": 8.4,
-      "available": true
+      "isAvailable": true
     },
     {
       "id": 6,
@@ -53,7 +53,7 @@
       "type": "Pale Ale",
       "quantity": 21,
       "degree": 8,
-      "available": true
+      "isAvailable": true
     },
     {
       "id": 7,
@@ -64,7 +64,7 @@
       "type": "Blonde",
       "quantity": 11,
       "degree": 6.7,
-      "available": true
+      "isAvailable": true
     }
   ]
 }
