@@ -8,11 +8,13 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import {BeersComponent} from "./beers/beers.component";
+import {BasketDetailsComponent} from "./basket-details/basket-details.component";
 
 @NgModule({
   declarations: [
     AppComponent,
-    BeersComponent
+    BeersComponent,
+    BasketDetailsComponent
   ],
   entryComponents: [],
   imports: [

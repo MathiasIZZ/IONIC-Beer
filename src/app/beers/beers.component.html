@@ -14,7 +14,7 @@
     <ion-content>
       <ion-list>
         <ion-item>Retour à l'accueil</ion-item>
-        <ion-item>Voir mon panier</ion-item>
+        <ion-item routerLink="basket-details">Voir mon panier</ion-item>
       </ion-list>
     </ion-content>
 
@@ -27,6 +27,7 @@
           <img src={{beer.img}} alt="{{beer.name}}">
           <p>{{beer.name}}</p>
           <p slot="end">prix : {{beer.price}} €</p>
+
         </ion-item>
       </ng-container>
     </ion-list>
