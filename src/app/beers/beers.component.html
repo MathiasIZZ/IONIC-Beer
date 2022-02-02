@@ -14,7 +14,7 @@
     <ion-content>
       <ion-list>
         <ion-item>Retour à l'accueil</ion-item>
-        <ion-item>Voir mon panier</ion-item>
+        <ion-item routerLink="basket-details">Voir mon panier</ion-item>
       </ion-list>
     </ion-content>
 
@@ -22,10 +22,12 @@
   <ion-content>
     <ion-list>
       <ng-container *ngFor="let beer of beers">
-        <ion-item>
+        <ion-item *ngIf="beer.isAvailable">
+          <ion-icon name="add-circle-outline"></ion-icon>
           <img src={{beer.img}} alt="{{beer.name}}">
           <p>{{beer.name}}</p>
-          <ion-icon name="add-circle-outline"></ion-icon>
+          <p slot="end">prix : {{beer.price}} €</p>
+
         </ion-item>
       </ng-container>
     </ion-list>
