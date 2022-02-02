@@ -1,0 +1,16 @@
+<ion-header translucent="true">
+  <ion-toolbar>
+    <ion-title>Mon panier de bières :</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [scrollEvents]="true">
+  <ion-list>
+    <div *ngFor="let beer of basket.products">
+      <ion-item >
+        <ion-icon name="clipboard-outline"></ion-icon>
+        <ion-label>{{beer.name}}</ion-label>
+      </ion-item>
+    </div>
+  </ion-list>
+  <ion-button expand="block" fill="outline">Valider le panier</ion-button>
+</ion-content>
