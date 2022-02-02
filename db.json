@@ -1,0 +1,70 @@
+{
+  "beers": [
+    {
+      "id": 1,
+      "name": "Chouffe",
+      "img": "https://courses.monoprix.fr/images-v3/0c44253f-c4a3-4340-9d37-d41e42b9d14a/954c242b-32ff-4170-a1b6-7de8f41ea086/500x500.jpg",
+      "description": "La Chouffe présente une robe doré et légèrement trouble, avec un riche col de mousse blanc et de légères bulles. Cette bière de spécialité blonde révèle en bouche un caractère agréablement fruité, épicé à la coriandre avec une légère saveur houblonnée.",
+      "price": 3,
+      "type": "Blonde",
+      "quantity": 12,
+      "degree": 8,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Quintine",
+      "img": "https://produits.bienmanger.com/33321-0w0h0_Quintine_Biere_Belge_Blonde.jpg",
+      "description": "Quintine est en effet le nom donné à une sorcière du village. Cette bière, à la robe d'un jaune or troublé, se couvre d'un chapeau de mousse crémeux à la belle abondance. Celui-ci est traversé par une effervescence conséquente. La Quintine Blonde développe dans le nez des arômes fruités et fleuris de houblon.",
+      "price": 3.5,
+      "type": "Blonde",
+      "quantity": 24,
+      "degree": 8,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Triple Karmeliet",
+      "img": "https://d33za54wpumlhy.cloudfront.net/eyJidWNrZXQiOiJzYXZldXJiaWVyZSIsImtleSI6ImltZy9wLzQxNjQxLTYwMTkwLmpwZyIsImVkaXRzIjp7IndlYnAiOnsicXVhbGl0eSI6ODB9LCJwbmciOnsicXVhbGl0eSI6ODB9LCJyZXNpemUiOnsid2lkdGgiOjc4NiwiaGVpZ2h0Ijo0OTAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjAsImciOjAsImIiOjAsImFscGhhIjowfX19fQ==",
+      "description": "La bière Tripel Karmeliet est l'un des grands classiques des bières belges. Selon la brasserie Bosteels, la recette utilisée serait la même depuis 1679.",
+      "price": 4.8,
+      "type": "Blonde",
+      "quantity": 6,
+      "degree": 8.4,
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Kwak",
+      "img": "https://d33za54wpumlhy.cloudfront.net/eyJidWNrZXQiOiJzYXZldXJiaWVyZSIsImtleSI6ImltZy9wLzEwNC01MTQ1NC5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp7InF1YWxpdHkiOjgwfSwicG5nIjp7InF1YWxpdHkiOjgwfSwicmVzaXplIjp7IndpZHRoIjo3ODYsImhlaWdodCI6NDkwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjowLCJnIjowLCJiIjowLCJhbHBoYSI6MH19fX0=",
+      "description": "Une bière belge qu'on ne présente plus, à accompagner de son verre du cocher !",
+      "price": 3.1,
+      "type": "Blonde",
+      "quantity": 9,
+      "degree": 8.4,
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "L'Alfortvillaise",
+      "img": "https://exploreparis.com/10076/brasserie-artisanale-bords-de-seine.jpg",
+      "description": "",
+      "price": 3.7,
+      "type": "Pale Ale",
+      "quantity": 21,
+      "degree": 8,
+      "available": true
+    },
+    {
+      "id": 7,
+      "name": "Affligem",
+      "img": "https://courses.monoprix.fr/images-v3/0c44253f-c4a3-4340-9d37-d41e42b9d14a/2ac4dcc3-d4ff-4a51-9524-5b5af02c437d/500x500.jpg",
+      "description": "Affligem Blonde est une bière de type Abbaye. A consommer entre 6° et 10°, l’Affligem® Blonde allie une jolie rondeur au goût fruité et une délicate amertume, parfaitement équilibrée. Une bière idéale pour l’apéritif, qui accompagnera également les fruits de mer, les grillades ou des plats épicés.",
+      "price": 2,
+      "type": "Blonde",
+      "quantity": 11,
+      "degree": 6.7,
+      "available": true
+    }
+  ]
+}
