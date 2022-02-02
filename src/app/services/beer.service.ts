@@ -12,4 +12,8 @@ export class BeerService {
   public findAll() {
     return this.http.get<Beer[]>(`${environment.apiUrl}/beers`);
   }
+
+  public findById(id: number) {
+    return this.http.get<Beer>(`${environment.apiUrl}/beers/${id}`);
+  }
 }

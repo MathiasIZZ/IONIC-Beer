@@ -5,7 +5,7 @@
       "name": "Chouffe",
       "img": "https://courses.monoprix.fr/images-v3/0c44253f-c4a3-4340-9d37-d41e42b9d14a/954c242b-32ff-4170-a1b6-7de8f41ea086/500x500.jpg",
       "description": "La Chouffe présente une robe doré et légèrement trouble, avec un riche col de mousse blanc et de légères bulles. Cette bière de spécialité blonde révèle en bouche un caractère agréablement fruité, épicé à la coriandre avec une légère saveur houblonnée.",
-      "price": 3,
+      "price": 3.0,
       "type": "Blonde",
       "quantity": 12,
       "degree": 8,
