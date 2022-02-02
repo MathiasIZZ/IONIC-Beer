@@ -23,7 +23,9 @@
     <ion-list>
       <ng-container *ngFor="let beer of beers">
         <ion-item>
+          <img src={{beer.img}} alt="{{beer.name}}">
           <p>{{beer.name}}</p>
+          <ion-icon name="add-circle-outline"></ion-icon>
         </ion-item>
       </ng-container>
     </ion-list>
