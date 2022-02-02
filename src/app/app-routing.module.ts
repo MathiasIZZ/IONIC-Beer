@@ -1,18 +1,11 @@
 import {NgModule} from '@angular/core';
 import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
 import {ModalBasketComponent} from './modal-basket/modal-basket.component';
+import {BeersComponent} from "./beers/beers.component";
 
 const routes: Routes = [
-  {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
-  },
-  {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
-  {path: 'panier', component: ModalBasketComponent},
+  {path: 'beers', component: BeersComponent},
+  {path: 'basket', component: ModalBasketComponent}
 ];
 
 @NgModule({

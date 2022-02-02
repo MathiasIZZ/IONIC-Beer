@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-item>
+      <ion-icon name="list-outline" (click)="openFirst()"></ion-icon>
+      <ion-title>BEER APP</ion-title>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+  <ion-menu side="start" menuId="first" contentId="main">
+    <ion-header>
+      <ion-toolbar color="primary">
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>Retour à l'accueil</ion-item>
+        <ion-item>Voir mon panier</ion-item>
+      </ion-list>
+    </ion-content>
+
+  </ion-menu>
+  <ion-content>
+    <ion-list>
+      <ng-container *ngFor="let beer of beers">
+        <ion-item>
+          <p>{{beer.name}}</p>
+        </ion-item>
+      </ng-container>
+    </ion-list>
+  </ion-content>
+
+<ion-router-outlet id="main"></ion-router-outlet>
