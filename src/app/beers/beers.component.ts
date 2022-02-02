@@ -12,7 +12,7 @@ export class BeersComponent implements OnInit {
 
   beers: Beer[] = [];
 
-  constructor(private beerService: BeerService, private menuController: MenuController) {
+  constructor(private beerService: BeerService) {
   }
 
   ngOnInit() {
@@ -24,10 +24,4 @@ export class BeersComponent implements OnInit {
       data => this.beers = data
     );
   }
-
-  openFirst() {
-    this.menuController.enable(true, 'first');
-    this.menuController.open('first');
-  }
-
 }

@@ -11,6 +11,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { BeersComponent } from './beers/beers.component';
 import { BasketDetailsComponent } from './basket-details/basket-details.component';
 import { BeerDetailsComponent } from './beer-details/beer-details.component';
+import {ModalBasketComponent} from './modal-basket/modal-basket.component';
+import {HeaderComponent} from './common/header/header.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { BeerDetailsComponent } from './beer-details/beer-details.component';
     BeersComponent,
     BasketDetailsComponent,
     BeerDetailsComponent,
+    ModalBasketComponent,
+    HeaderComponent
   ],
   entryComponents: [],
   imports: [

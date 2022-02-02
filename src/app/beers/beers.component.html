@@ -6,19 +6,7 @@
     </ion-item>
   </ion-toolbar>
 </ion-header>
-  <ion-menu side="start" menuId="first" contentId="main">
-    <ion-header>
-      <ion-toolbar color="primary">
-      </ion-toolbar>
-    </ion-header>
-    <ion-content>
-      <ion-list>
-        <ion-item>Retour à l'accueil</ion-item>
-        <ion-item routerLink="basket-details">Voir mon panier</ion-item>
-      </ion-list>
-    </ion-content>
 
-  </ion-menu>
   <ion-content>
     <ion-list>
       <ng-container *ngFor="let beer of beers">

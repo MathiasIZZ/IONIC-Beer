@@ -81,7 +81,7 @@
   "basket": [
     {
       "id": 1,
-      "beers": [
+      "products": [
         {
           "id": 8,
           "name": "8.6",

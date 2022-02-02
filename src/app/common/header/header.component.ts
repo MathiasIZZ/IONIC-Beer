@@ -1,0 +1,20 @@
+import { Component, OnInit } from '@angular/core';
+import {MenuController} from "@ionic/angular";
+
+@Component({
+  selector: 'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.scss'],
+})
+export class HeaderComponent implements OnInit {
+
+  constructor( private menuController: MenuController) { }
+
+  ngOnInit() {}
+
+  openFirst() {
+    this.menuController.enable(true, 'first');
+    this.menuController.open('first');
+  }
+
+}

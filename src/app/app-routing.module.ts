@@ -7,10 +7,10 @@ import { Beer } from './models/beer';
 import { BeerDetailsComponent } from './beer-details/beer-details.component';
 
 const routes: Routes = [
+  { path: '', component: BeersComponent },
   { path: 'beers', component: BeersComponent },
   { path: 'beers/:id', component: BeerDetailsComponent },
-  { path: 'basket', component: ModalBasketComponent },
-  { path: 'beers/basket-details', component: BasketDetailsComponent },
+  { path: 'basket-details', component: BasketDetailsComponent },
 ];
 
 @NgModule({
