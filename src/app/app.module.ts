@@ -14,6 +14,7 @@ import { BeerDetailsComponent } from './beer-details/beer-details.component';
 import {ModalBasketComponent} from './modal-basket/modal-basket.component';
 import {HeaderComponent} from './common/header/header.component';
 import {FooterComponent} from './common/footer/footer.component';
+import {IntroAppComponent} from './intro-app/intro-app.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {FooterComponent} from './common/footer/footer.component';
     BeerDetailsComponent,
     ModalBasketComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    IntroAppComponent
   ],
   entryComponents: [],
   imports: [

@@ -5,9 +5,10 @@ import { BeersComponent } from './beers/beers.component';
 import { BasketDetailsComponent } from './basket-details/basket-details.component';
 import { Beer } from './models/beer';
 import { BeerDetailsComponent } from './beer-details/beer-details.component';
+import {IntroAppComponent} from './intro-app/intro-app.component';
 
 const routes: Routes = [
-  { path: '', component: BeersComponent },
+  { path: '', component: IntroAppComponent },
   { path: 'beers', component: BeersComponent },
   { path: 'beers/:id', component: BeerDetailsComponent },
   { path: 'basket-details', component: BasketDetailsComponent },
