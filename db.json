@@ -5,9 +5,9 @@
       "name": "Chouffe",
       "img": "https://courses.monoprix.fr/images-v3/0c44253f-c4a3-4340-9d37-d41e42b9d14a/954c242b-32ff-4170-a1b6-7de8f41ea086/500x500.jpg",
       "description": "La Chouffe présente une robe doré et légèrement trouble, avec un riche col de mousse blanc et de légères bulles. Cette bière de spécialité blonde révèle en bouche un caractère agréablement fruité, épicé à la coriandre avec une légère saveur houblonnée.",
-      "price": 3.0,
+      "price": 3,
       "type": "Blonde",
-      "quantity": 12,
+      "quantity": 6,
       "degree": 8,
       "isAvailable": true
     },
@@ -18,7 +18,7 @@
       "description": "Quintine est en effet le nom donné à une sorcière du village. Cette bière, à la robe d'un jaune or troublé, se couvre d'un chapeau de mousse crémeux à la belle abondance. Celui-ci est traversé par une effervescence conséquente. La Quintine Blonde développe dans le nez des arômes fruités et fleuris de houblon.",
       "price": 3.5,
       "type": "Blonde",
-      "quantity": 10,
+      "quantity": 9,
       "degree": 8,
       "isAvailable": true
     },
@@ -29,7 +29,7 @@
       "description": "La bière Tripel Karmeliet est l'un des grands classiques des bières belges. Selon la brasserie Bosteels, la recette utilisée serait la même depuis 1679.",
       "price": 4.8,
       "type": "Blonde",
-      "quantity": 6,
+      "quantity": 5,
       "degree": 8.4,
       "isAvailable": true
     },
@@ -40,7 +40,7 @@
       "description": "Une bière belge qu'on ne présente plus, à accompagner de son verre du cocher !",
       "price": 3.1,
       "type": "Blonde",
-      "quantity": 9,
+      "quantity": 8,
       "degree": 8.4,
       "isAvailable": true
     },
@@ -51,7 +51,7 @@
       "description": "",
       "price": 3.7,
       "type": "Pale Ale",
-      "quantity": 21,
+      "quantity": 20,
       "degree": 8,
       "isAvailable": true
     },
