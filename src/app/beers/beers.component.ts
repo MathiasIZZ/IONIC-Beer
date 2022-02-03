@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {BeerService} from '../services/beer.service';
 import {Beer} from '../models/beer';
 import {ActivatedRoute} from '@angular/router';
+import {BasketService} from "../services/basket.service";
 
 
 @Component({
@@ -14,9 +15,7 @@ export class BeersComponent implements OnInit {
   beers: Beer[] = [];
   url: string;
 
-
-
-  constructor(private beerService: BeerService, private router: ActivatedRoute) {
+  constructor(private beerService: BeerService, private basketService: BasketService, private router: ActivatedRoute) {
   }
 
   ngOnInit() {
@@ -27,5 +26,9 @@ export class BeersComponent implements OnInit {
     this.beerService.findAll().subscribe(
       data => this.beers = data
     );
+  }
+
+  addBeer(beer: Beer) {
+    return this.basketService.addBeer(beer);
   }
 }

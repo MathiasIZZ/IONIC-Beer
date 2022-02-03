@@ -1,17 +1,23 @@
-import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
-import {Basket} from '../models/basket';
-import {environment} from '../../environments/environment';
+import {Injectable} from '@angular/core';
+import {Beer} from "../models/beer";
 
 @Injectable({
   providedIn: 'root',
 })
 export class BasketService {
-  constructor(private http: HttpClient) {}
 
-  public findAll() {
-    return this.http.get<Basket[]>(`${environment.apiUrl}/basket`);
+  basket: Beer[] = [];
+
+  constructor() {}
+
+  public findBasket() {
+    return this.basket;
   }
 
+  public addBeer(beer: Beer){
+    this.basket.push(beer);
+    console.log(beer)
+    console.log(this.basket)
+  }
 
 }

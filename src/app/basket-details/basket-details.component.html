@@ -1,18 +1,16 @@
 <ion-content>
-    <ion-list-header>
-      <h1>Mon panier</h1>
-    </ion-list-header>
+  <ion-list-header>
+    <h1>Mon panier</h1>
+  </ion-list-header>
 
-    <ng-container *ngFor="let basket of baskets">
-      <h1 style="text-align: center">Mon panier</h1>
-      <ng-container *ngFor="let beer of basket.products let index = index">
-        <ion-item>
-          <ion-icon name="beer-outline" slot="start"></ion-icon>
-          <ion-label>{{ beer.name }}</ion-label>
-          <ion-label>{{ beer.price }} euros</ion-label>
-          <ion-icon name="heart-dislike-outline" slot="end" (click)="deleteBeerOfMyBasket(index)"></ion-icon>
-        </ion-item>
-      </ng-container>
-    </ng-container>
+  <h1 style="text-align: center">Mon panier</h1>
+  <ng-container *ngFor="let beer of basket let index = index">
+    <ion-item>
+      <ion-icon name="beer-outline" slot="start"></ion-icon>
+      <ion-label>{{ beer.name }}</ion-label>
+      <ion-label>{{ beer.price }} euros</ion-label>
+      <ion-icon name="heart-dislike-outline" slot="end" (click)="deleteBeerOfMyBasket(index)"></ion-icon>
+    </ion-item>
+  </ng-container>
 </ion-content>
 

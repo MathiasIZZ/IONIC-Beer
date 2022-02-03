@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 import {BasketService} from '../services/basket.service';
-import {Basket} from '../models/basket';
+import {Beer} from "../models/beer";
 
 @Component({
   selector: 'app-basket-details',
@@ -10,25 +10,22 @@ import {Basket} from '../models/basket';
 })
 export class BasketDetailsComponent implements OnInit {
 
-  baskets: Basket[] = [];
+  basket: Beer[];
 
-  constructor(private basketService: BasketService) { }
+  constructor(private basketService: BasketService) {
+  }
 
   ngOnInit() {
     this.displayBasket();
   }
 
   displayBasket() {
-    this.basketService.findAll().subscribe( (data) => {
-      this.baskets = data;
-      console.log(this.baskets);
-    });
+    this.basket = this.basketService.findBasket();
   }
 
   deleteBeerOfMyBasket(index: number) {
-    this.baskets.splice(index);
+    this.basket.splice(index, 1);
   }
-
 
 
 }

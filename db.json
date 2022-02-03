@@ -77,24 +77,5 @@
       "degree": 8.7,
       "isAvailable": true
     }
-  ],
-  "basket": [
-    {
-      "id": 1,
-      "products": [
-        {
-          "id": 8,
-          "name": "8.6",
-          "img": "https://courses.monoprix.fr/images-v3/0c44253f-c4a3-4340-9d37-d41e42b9d14a/2ac4dcc3-d4ff-4a51-9524-5b5af02c437d/500x500.jpg",
-          "description": "Affligem Blonde est une bière de type Abbaye. A consommer entre 6° et 10°, l’Affligem® Blonde allie une jolie rondeur au goût fruité et une délicate amertume, parfaitement équilibrée. Une bière idéale pour l’apéritif, qui accompagnera également les fruits de mer, les grillades ou des plats épicés.",
-          "price": 1,
-          "type": "Brune",
-          "quantity": 18,
-          "degree": 8.7,
-          "isAvailable": true
-        }
-      ],
-      "isConfirmed": false
-    }
   ]
 }
