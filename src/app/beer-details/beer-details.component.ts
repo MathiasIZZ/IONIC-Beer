@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Beer } from '../models/beer';
+import { BasketService } from '../services/basket.service';
 import { BeerService } from '../services/beer.service';
 
 @Component({
@@ -13,11 +14,14 @@ export class BeerDetailsComponent implements OnInit {
   id: number;
   constructor(
     private beerService: BeerService,
-    private activeRoute: ActivatedRoute
+    private activeRoute: ActivatedRoute,
+    private basketService: BasketService
   ) {
-    this.activeRoute.params.subscribe((params: Params) => {
-      this.id = params['id'];
-    });
+    this.id = this.activeRoute.snapshot.params['id'];
+  }
+
+  addToBasket() {
+    this.basketService.addBeer(this.beer);
   }
   initBeer() {
     this.beerService.findById(this.id).subscribe((data) => (this.beer = data));

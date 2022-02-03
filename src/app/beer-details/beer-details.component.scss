@@ -1,5 +1,6 @@
 .beer-card {
   border: 2px solid #5260ff;
+  margin-top: 65px;
 }
 .beerTypeDegree {
   display: flex;
@@ -8,4 +9,8 @@
 .price {
   display: flex;
   justify-content: center;
+}
+.returnButton {
+  position: absolute;
+  left: 85%;
 }

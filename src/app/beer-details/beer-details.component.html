@@ -1,6 +1,9 @@
-<ion-card class="beer-card">
+<ion-card class="beer-card" *ngIf="beer">
   <ion-card-header>
-    <ion-img src="{{ beer.img }}"></ion-img>
+    <ion-button class="returnButton" color="tertiary" routerLink="/beers"
+      >X</ion-button
+    >
+    <ion-img class="img" src="{{ beer.img }}">X</ion-img>
     <ion-card-title>{{ beer.name | titlecase }}</ion-card-title>
     <ion-card-subtitle>{{ beer.type }}</ion-card-subtitle>
   </ion-card-header>
@@ -15,7 +18,11 @@
   <ion-text class="price" color="secondary">
     <h1>{{ beer.price | number: "1.2" }} €uro</h1>
   </ion-text>
-  <ion-button expand="block" color="tertiary" shape="round"
+  <ion-button
+    expand="block"
+    color="tertiary"
+    shape="round"
+    (click)="addToBasket()"
     >Add to basket</ion-button
   >
 </ion-card>
