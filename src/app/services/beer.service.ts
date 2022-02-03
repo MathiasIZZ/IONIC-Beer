@@ -19,9 +19,8 @@ export class BeerService {
 
   public stock(beer: Beer, q: number) {
     beer.quantity = beer.quantity + q;
-    console.log(beer.quantity);
     this.http
       .put<Beer>(`${environment.apiUrl}/beers/${beer.id}`, beer)
-      .subscribe((data) => console.log(beer));
+      .subscribe();
   }
 }

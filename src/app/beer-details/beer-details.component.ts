@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Beer } from '../models/beer';
 import { BasketService } from '../services/basket.service';
 import { BeerService } from '../services/beer.service';
@@ -28,6 +28,5 @@ export class BeerDetailsComponent implements OnInit {
   }
   ngOnInit() {
     this.initBeer();
-    console.log(this.beer);
   }
 }

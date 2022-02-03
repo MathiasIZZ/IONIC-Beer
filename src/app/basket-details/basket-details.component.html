@@ -9,7 +9,7 @@
       <ion-icon name="beer-outline" slot="start"></ion-icon>
       <ion-label>{{ beer.name }}</ion-label>
       <ion-label>{{ beer.price }} euros</ion-label>
-      <ion-icon name="heart-dislike-outline" slot="end" (click)="deleteBeerOfMyBasket(index)"></ion-icon>
+      <ion-icon name="heart-dislike-outline" slot="end" (click)="deleteBeerOfMyBasket(index, beer)"></ion-icon>
     </ion-item>
   </ng-container>
 </ion-content>
