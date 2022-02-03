@@ -16,4 +16,10 @@ export class BeerService {
   public findById(id: number) {
     return this.http.get<Beer>(`${environment.apiUrl}/beers/${id}`);
   }
+
+  public stock(beer: Beer, q: number) {
+    beer.quantity = beer.quantity + q;
+    console.log(beer.quantity);
+    return this.http.patch<Beer>(`${environment.apiUrl}/beers`, beer);
+  }
 }
