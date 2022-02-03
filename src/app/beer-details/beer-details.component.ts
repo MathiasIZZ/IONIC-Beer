@@ -23,6 +23,7 @@ export class BeerDetailsComponent implements OnInit {
   addToBasket() {
     this.basketService.addBeer(this.beer);
   }
+
   initBeer() {
     this.beerService.findById(this.id).subscribe((data) => (this.beer = data));
   }

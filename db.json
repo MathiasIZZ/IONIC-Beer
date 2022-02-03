@@ -7,7 +7,7 @@
       "description": "La Chouffe présente une robe doré et légèrement trouble, avec un riche col de mousse blanc et de légères bulles. Cette bière de spécialité blonde révèle en bouche un caractère agréablement fruité, épicé à la coriandre avec une légère saveur houblonnée.",
       "price": 3,
       "type": "Blonde",
-      "quantity": 5,
+      "quantity": 10,
       "degree": 8,
       "isAvailable": true
     },
@@ -18,7 +18,7 @@
       "description": "Quintine est en effet le nom donné à une sorcière du village. Cette bière, à la robe d'un jaune or troublé, se couvre d'un chapeau de mousse crémeux à la belle abondance. Celui-ci est traversé par une effervescence conséquente. La Quintine Blonde développe dans le nez des arômes fruités et fleuris de houblon.",
       "price": 3.5,
       "type": "Blonde",
-      "quantity": 8,
+      "quantity": 6,
       "degree": 8,
       "isAvailable": true
     },

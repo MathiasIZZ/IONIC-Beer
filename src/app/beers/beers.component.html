@@ -1,13 +1,13 @@
 <ion-content>
   <ion-list class="listBeer">
     <ng-container *ngFor="let beer of beers">
-      <ion-item *ngIf="beer.isAvailable">
+      <ion-item *ngIf="beer.quantity > 0">
         <ion-icon
-          name="add-circle-outline"
+          name="bag-outline"
           style="margin-right: 15px"
           (click)="addBeer(beer)"
         ></ion-icon>
-        <span style="margin-right: 50px"> / {{ beer.quantity }}</span>
+        <span style="margin-right: 50px">Dispo:{{ beer.quantity }}</span>
         <img src="{{ beer.img }}" alt="{{ beer.name }}" />
         <a routerLink="/beers/{{ beer.id }}">{{ beer.name }}</a>
         <p slot="end">{{ beer.price }} €</p>

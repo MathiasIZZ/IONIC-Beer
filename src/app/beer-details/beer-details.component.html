@@ -19,6 +19,7 @@
     <h1>{{ beer.price | number: "1.2" }} €uro</h1>
   </ion-text>
   <ion-button
+    *ngIf="beer.quantity > 0"
     expand="block"
     color="tertiary"
     shape="round"
